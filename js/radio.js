@@ -116,49 +116,55 @@ Radio.prototype = {
 // Setup our new radio and pass in the stations.
 var radio = new Radio([
   {
-    freq: 1,
+    freq: '1',
     title: "Discoteca 90",
     src: 'http://192.95.16.19:9602/stream',
     howl: null
   },
   {
     freq: '2',
-    title: "Radio 1160",
-    src: 'http://streaming.gometri.com:8021/stream',
-    howl: null
-  },
-  {
-    freq: '3',
     title: "Radio La 90 Tera",
     src: 'http://184.154.28.210:8410/;stream/1;*.nsv',
     howl: null
   },
   {
+    freq: '3',
+    title: "Radio 1160",
+    src: 'http://streaming.gometri.com:8021/stream',
+    howl: null
+  },
+  {
     freq: '4',
+    title: "Radio 1160",
+    src: 'http://radio.ancashserver.com:9552/stream/1/',
+    howl: null
+  }, 
+  {
+    freq: '5',
     title: "Radio Oasis",
     src: 'https://17333.live.streamtheworld.com/CRP_OASAAC.aac',
     howl: null
   },
   {
-    freq: '5',
+    freq: '6',
     title: "Radio Huancayo",
     src: 'http://198.15.86.218:9386/;',
     howl: null
   },
   {
-    freq: '6',
+    freq: '7',
     title: "Salsa Radio",
     src: 'http://192.99.148.184:5670/stream',
     howl: null
   },
   {
-    freq: '7',
+    freq: '8',
     title: "Radio Cumbia Mix",
     src: 'http://192.99.148.184:5670/stream',
     howl: null
   },
   {
-    freq: '8',
+    freq: '9',
     title: "Radio Ritmo Romántica",
     src: 'https://14023.live.streamtheworld.com/CRP_RIT_SC?csegid=30006&dist=30006',
     howl: null
