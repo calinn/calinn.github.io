@@ -135,7 +135,7 @@ var radio = new Radio([
   },
   {
     freq: '4',
-    title: "Radio 1160",
+    title: "Estación 90 radio",
     src: 'http://radio.ancashserver.com:9552/stream/1/',
     howl: null
   }, 
