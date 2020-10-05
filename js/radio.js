@@ -62,7 +62,7 @@ Radio.prototype = {
       sound = data.howl = new Howl({
         src: data.src,
         html5: true, // A live stream can only be played through HTML5 Audio.
-        format: ['mp3', 'aac']
+        format: ['mp3', 'aac', 'aacp']
       });
     }
 
@@ -129,20 +129,38 @@ var radio = new Radio([
   },
   {
     freq: '3',
-    title: "Oasis",
+    title: "Radio Oasis",
     src: 'https://17333.live.streamtheworld.com/CRP_OASAAC.aac',
-    howl: null
-  },/*
-  {
-    freq: '103.3',
-    title: "80's Hits",
-    src: 'http://tunein4.streamguys1.com/80shtfree1',
     howl: null
   },
   {
+    freq: '4',
+    title: "Radio La 90 Tera",
+    src: 'http://184.154.28.210:8410/stream/',
+    howl: null
+  },
+  {
+    freq: '5',
+    title: "Radio Huancayo",
+    src: 'http://198.15.86.218:9386/',
+    howl: null
+  },
+  {
+    freq: '6',
+    title: "Salsa Radio",
+    src: 'http://192.99.148.184:5670/',
+    howl: null
+  },
+  {
+    freq: '7',
+    title: "Radio Cumbia Mix",
+    src: 'http://192.99.148.184:5670/',
+    howl: null
+  },
+    {
     freq: '107.7',
     title: "Today's Hits",
     src: 'http://rfcmedia.streamguys1.com/MusicPulse.mp3',
     howl: null
-  }*/
+  }
 ]);
