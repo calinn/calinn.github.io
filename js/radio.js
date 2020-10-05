@@ -136,25 +136,25 @@ var radio = new Radio([
   {
     freq: '4',
     title: "Radio La 90 Tera",
-    src: 'http://184.154.28.210:8410/stream/',
+    src: 'http://184.154.28.210:8410/;stream/1;*.nsv',
     howl: null
   },
   {
     freq: '5',
     title: "Radio Huancayo",
-    src: 'http://198.15.86.218:9386/',
+    src: 'http://198.15.86.218:9386/;',
     howl: null
   },
   {
     freq: '6',
     title: "Salsa Radio",
-    src: 'http://192.99.148.184:5670/',
+    src: 'http://192.99.148.184:5670/stream',
     howl: null
   },
   {
     freq: '7',
     title: "Radio Cumbia Mix",
-    src: 'http://192.99.148.184:5670/',
+    src: 'http://192.99.148.184:5670/stream',
     howl: null
   },
     {
