@@ -129,14 +129,14 @@ var radio = new Radio([
   },
   {
     freq: '3',
-    title: "Radio Oasis",
-    src: 'https://17333.live.streamtheworld.com/CRP_OASAAC.aac',
+    title: "Radio La 90 Tera",
+    src: 'http://184.154.28.210:8410/;stream/1;*.nsv',
     howl: null
   },
   {
     freq: '4',
-    title: "Radio La 90 Tera",
-    src: 'http://184.154.28.210:8410/;stream/1;*.nsv',
+    title: "Radio Oasis",
+    src: 'https://17333.live.streamtheworld.com/CRP_OASAAC.aac',
     howl: null
   },
   {
@@ -157,7 +157,13 @@ var radio = new Radio([
     src: 'http://192.99.148.184:5670/stream',
     howl: null
   },
-    {
+  {
+    freq: '8',
+    title: "Radio Ritmo Romántica",
+    src: 'https://14023.live.streamtheworld.com/CRP_RIT_SC?csegid=30006&dist=30006',
+    howl: null
+  },  
+  {
     freq: '107.7',
     title: "Today's Hits",
     src: 'http://rfcmedia.streamguys1.com/MusicPulse.mp3',
