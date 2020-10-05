@@ -24,7 +24,8 @@ var Player = function(playlist) {
   this.index = 0;
 
   // Display the title of the first track.
-  track.innerHTML = '1. ' + playlist[0].title;
+  //track.innerHTML = '1. ' + playlist[0].title;
+  track.innerHTML = ''; // CDL
 
   // Setup the playlist display.
   playlist.forEach(function(song) {
@@ -102,7 +103,7 @@ Player.prototype = {
     sound.play();
 
     // Update the track display.
-    track.innerHTML = (index + 1) + '. ' + data.title;
+    //track.innerHTML = (index + 1) + '. ' + data.title; // CDL
 
     // Show the pause button.
     if (sound.state() === 'loaded') {
@@ -184,6 +185,12 @@ Player.prototype = {
    */
   volume: function(val) {
     var self = this;
+
+    // Control Volumen de Radios reproducidas mas de 1 vez (CDL)
+    for (let i in radio.stations) {
+      if (radio.stations[i].howl)
+        Howler._howls.push(radio.stations[i].howl);
+    }
 
     // Update the global volume (affecting all Howls).
     Howler.volume(val);
@@ -289,7 +296,7 @@ var player = new Player([
 ]);
 
 // Bind our player controls.
-playBtn.addEventListener('click', function() {
+/*playBtn.addEventListener('click', function() {
   player.play();
 });
 pauseBtn.addEventListener('click', function() {
@@ -303,7 +310,7 @@ nextBtn.addEventListener('click', function() {
 });
 waveform.addEventListener('click', function(event) {
   player.seek(event.clientX / window.innerWidth);
-});
+});*/
 playlistBtn.addEventListener('click', function() {
   player.togglePlaylist();
 });

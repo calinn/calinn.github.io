@@ -27,7 +27,8 @@ var Radio = function(stations) {
   
   // Setup the display for each station.
   for (var i=0; i<self.stations.length; i++) {
-    window['title' + i].innerHTML = '<b>' + self.stations[i].freq + '</b> ' + self.stations[i].title;
+    //window['title' + i].innerHTML = '<b>' + self.stations[i].freq + '</b> ' + self.stations[i].title;
+    window['title' + i].innerHTML = self.stations[i].title;
     window['station' + i].addEventListener('click', function(index) {
       var isNotPlaying = (self.stations[index].howl && !self.stations[index].howl.playing());
       
@@ -112,28 +113,6 @@ Radio.prototype = {
   }
 };
 
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'http://127.0.0.1:8000/api/radio/songname');
-//xhr.open('POST', 'http://192.95.16.19:9602/stats?sid=1', true);
-//xhr.responseType = 'arraybuffer';
-var xmlDoc;
-xhr.onreadystatechange = function() {
-    if (xhr.readyState == 4 && xhr.status == 200) {
-    xmlDoc = xhr.responseXML;
-    console.log(xmlDoc);
-    }
-};
-//xhr.setRequestHeader('Content-Type', 'text/xml');
-xhr.send();
-
-/*
-$.SHOUTcast({
-  host : 'http://192.95.16.19',
-  port : 9602
-}).stats(function(){
-  $('#songtitle').text(this.get('songtitle'));
-});*/
-
 // Setup our new radio and pass in the stations.
 var radio = new Radio([
   {
@@ -147,13 +126,13 @@ var radio = new Radio([
     title: "Radio 1160",
     src: 'http://streaming.gometri.com:8021/stream',
     howl: null
-  }/*,
-  {
-    freq: '98.9',
-    title: "CNN",
-    src: 'http://tunein.streamguys1.com/cnn',
-    howl: null
   },
+  {
+    freq: '3',
+    title: "Oasis",
+    src: 'https://17333.live.streamtheworld.com/CRP_OASAAC.aac',
+    howl: null
+  },/*
   {
     freq: '103.3',
     title: "80's Hits",
