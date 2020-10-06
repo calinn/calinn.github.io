@@ -79,7 +79,7 @@ body {
   vertical-align: middle;
 }
 .live {
-  width: 4vw; /* 8vw para live */
+  width: 8vw; /* ancho de cuadro rojo: 8vw para live */
   height: 3vw;
   background-color: #cc1919;
   border-radius: 3px;
