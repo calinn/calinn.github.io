@@ -117,8 +117,9 @@ Radio.prototype = {
 var radio = new Radio([
   {
     freq: '1',
-    title: "Discoteca 90",
-    src: 'https://192.95.16.19:9602/stream',
+    title: "Discoteca 90",    
+    src: 'https://player.radioforge.com/v2/shoutcast.html?radiolink=http://162.244.80.33:4480/stream&radiotype=shoutcast',
+    //src: 'http://192.95.16.19:9602/stream',
     howl: null
   },
   {
