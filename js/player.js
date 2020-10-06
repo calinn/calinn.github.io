@@ -334,7 +334,7 @@ sliderBtn.addEventListener('mousedown', function() {
 });
 sliderBtn.addEventListener('touchstart', function() {
   window.sliderDown = true;
-});
+}, { passive: true });
 volume.addEventListener('mouseup', function() {
   window.sliderDown = false;
 });
@@ -353,7 +353,7 @@ var move = function(event) {
 };
 
 volume.addEventListener('mousemove', move);
-volume.addEventListener('touchmove', move);
+volume.addEventListener('touchmove', move, { passive: true });
 
 // Setup the "waveform" animation.
 var wave = new SiriWave({
