@@ -118,20 +118,19 @@ var radio = new Radio([
   {
     freq: '1',
     title: "Discoteca 90",    
-    //src: 'http://192.95.16.19:9602/stream',
     src: 'https://sonica.cloudstreaming.eu:10968/stream/1/',
     howl: null
   },
   {
     freq: '2',
     title: "Radio La 90 Tera",
-    src: 'http://184.154.28.210:8410/;stream/1;*.nsv',
+    src: 'http://184.154.28.210:8410/stream/;',
     howl: null
   },
   {
     freq: '3',
     title: "Radio 1160",
-    src: 'http://streaming.gometri.com:8021/stream',
+    src: 'https://streaming.gometri.com/stream/8021/stream/1/',
     howl: null
   },
   {
@@ -149,7 +148,7 @@ var radio = new Radio([
   {
     freq: '6',
     title: "Radio Huancayo",
-    src: 'http://198.15.86.218:9386/;',
+    src: 'https://cloudstream2030.conectarhosting.com/9386/;',
     howl: null
   },
   {
