@@ -118,7 +118,7 @@ var radio = new Radio([
   {
     freq: '1',
     title: "Discoteca 90",
-    src: 'http://192.95.16.19:9602/stream',
+    src: 'http://192.95.16.19:9602/stream/',
     howl: null
   },
   {
