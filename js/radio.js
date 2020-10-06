@@ -159,6 +159,36 @@ var radio = new Radio([
   },
   {
     freq: '8',
+    title: "Salsa Radio",
+    src: 'http://radio.domiplay.net:2002/;',
+    howl: null
+  },
+  {
+    freq: '9',
+    title: "Radio Cumbia Mix",
+    src: 'http://192.99.148.184:5670/stream',
+    howl: null
+  },
+  {
+    freq: '10',
+    title: "Radio Fiesta", // 105.5 FM
+    src: 'https://serverssl.innovatestream.pe:8080/167.114.118.119:7658/stream',
+    howl: null
+  },
+  {
+    freq: '11',
+    title: "Radio Frecuencia 100",
+    src: 'http://oyotunstream.com:7066/stream',
+    howl: null
+  },
+  {
+    freq: '12',
+    title: "Radio La Tonera",
+    src: 'https://stream.zenolive.com/2215qw4nn2zuv.aac',
+    howl: null
+  },
+  {
+    freq: '13',
     title: "Radio TOP40",
     src: 'https://streamssl.eu:1290/usastreams',
     howl: null
@@ -169,34 +199,4 @@ var radio = new Radio([
     src: 'http://rfcmedia.streamguys1.com/MusicPulse.mp3',
     howl: null
   },
-  {
-    freq: '10',
-    title: "Salsa Radio",
-    src: 'http://radio.domiplay.net:2002/;',
-    howl: null
-  },
-  {
-    freq: '11',
-    title: "Radio Cumbia Mix",
-    src: 'http://192.99.148.184:5670/stream',
-    howl: null
-  },
-  {
-    freq: '12',
-    title: "Radio Fiesta", // 105.5 FM
-    src: 'https://serverssl.innovatestream.pe:8080/167.114.118.119:7658/stream',
-    howl: null
-  },
-  {
-    freq: '13',
-    title: "Radio Frecuencia 100",
-    src: 'http://oyotunstream.com:7066/stream',
-    howl: null
-  },
-  {
-    freq: '14',
-    title: "Radio La Tonera",
-    src: 'https://stream.zenolive.com/2215qw4nn2zuv.aac',
-    howl: null
-  }
 ]);
