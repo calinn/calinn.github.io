@@ -124,7 +124,7 @@ var radio = new Radio([
   {
     freq: '2',
     title: "Radio La 90 Tera",
-    src: 'http://184.154.28.210:8410/stream/;',
+    src: 'http://184.154.28.210:8410/;stream/1;*.nsv',
     howl: null
   },
   {
