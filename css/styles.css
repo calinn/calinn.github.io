@@ -1,7 +1,7 @@
 html {
   width: 100%;
   height: 100%;  
-  overflow: hidden;
+  /*overflow: hidden;*/
   padding: 0;
   margin: 0;
   outline: 0;
@@ -12,7 +12,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background: #0b62b3;
   background: -moz-linear-gradient(-45deg, #0b62b3 0%, #7dff5f 100%);
   background: -webkit-linear-gradient(-45deg, #0b62b3 0%, #7dff5f 100%);
@@ -168,9 +168,9 @@ body {
 
 /* Controls */
 .controlsOuter {
-  position: absolute;
+  position: fixed; /* absosulte*/
   width: 100%;
-  height: 70px;
+  /*height: 70px;*/
   bottom: 3%;
 }
 .controlsInner {
