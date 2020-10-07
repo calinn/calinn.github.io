@@ -138,41 +138,41 @@ var radio = new Radio([
     title: "Estación 90 radio",
     src: 'http://radio.ancashserver.com:9552/stream/1/',
     howl: null
-  }, 
+  },
   {
     freq: '5',
+    title: "Radio Fiesta", // 105.5 FM
+    src: 'https://serverssl.innovatestream.pe:8080/167.114.118.119:7658/stream',
+    howl: null
+  },
+  {
+    freq: '6',
     title: "Radio Oasis",
     src: 'https://17333.live.streamtheworld.com/CRP_OASAAC.aac',
     howl: null
   },
   {
-    freq: '6',
+    freq: '7',
     title: "Radio Huancayo",
     src: 'https://cloudstream2030.conectarhosting.com/9386/;',
     howl: null
   },
   {
-    freq: '7',
+    freq: '8',
     title: "Radio Ritmo Romántica",
     src: 'https://14023.live.streamtheworld.com/CRP_RIT_SC?csegid=30006&dist=30006',
     howl: null
   },
   {
-    freq: '8',
+    freq: '9',
     title: "Salsa Radio",
     src: 'http://radio.domiplay.net:2002/;',
     howl: null
   },
   {
-    freq: '9',
+    freq: '10',
     title: "Radio Cumbia Mix",
     src: 'http://192.99.148.184:5670/stream',
-    howl: null
-  },
-  {
-    freq: '10',
-    title: "Radio Fiesta", // 105.5 FM
-    src: 'https://serverssl.innovatestream.pe:8080/167.114.118.119:7658/stream',
     howl: null
   },
   {
