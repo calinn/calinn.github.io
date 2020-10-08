@@ -146,67 +146,67 @@ var radio = new Radio([
     howl: null
   },  
   {
-    freq: '7',
+    freq: '6',
     title: "Radio Huancayo",
     src: 'https://cloudstream2030.conectarhosting.com/9386/;',
     howl: null
   },
   {
-    freq: '6',
+    freq: '7',
     title: "Top Latino",
     src: 'http://173.236.60.186:8020/stream',
     howl: null
   },
   {
-    freq: '10',
+    freq: '8',
     title: "Radio Sabrosa",
     src: ' https://stream.zeno.fm/macsyav0nqzuv',
     howl: null
   },
   {
-    freq: '12',
+    freq: '9',
     title: "Radio Cumbia Mix",
     src: 'http://192.99.148.184:5670/stream',
     howl: null
   },
   {
-    freq: '9',
+    freq: '10',
     title: "Radio Ritmo Romántica",
     src: 'https://14023.live.streamtheworld.com/CRP_RIT_SC?csegid=30006&dist=30006',
     howl: null
   },
   {
-    freq: '9',
+    freq: '11',
     title: "Radio Corazón",
     src: 'https://17833.live.streamtheworld.com/RADIO_CORAZON.mp3?DIST=RPPplayer&TGT=RPPplayer&maxServers=2&ua=RadioTime&ttag=RadioTime',
     howl: null
   },  
   {
-    freq: '6',
+    freq: '12',
     title: "Radio Oasis",
     src: 'https://17333.live.streamtheworld.com/CRP_OASAAC.aac',
     howl: null
   },
   {
-    freq: '11',
+    freq: '13',
     title: "Salsa Radio",
     src: 'http://radio.domiplay.net:2002/;',
     howl: null
   },
   {
-    freq: '13',
+    freq: '14',
     title: "Radio Frecuencia 100",
     src: 'http://oyotunstream.com:7066/stream',
     howl: null
   },
   {
-    freq: '14',
+    freq: '15',
     title: "Radio La Tonera",
     src: 'https://stream.zenolive.com/2215qw4nn2zuv.aac',
     howl: null
   },
   {
-    freq: '15',
+    freq: '16',
     title: "Radio TOP40",
     src: 'https://streamssl.eu:1290/usastreams',
     howl: null
