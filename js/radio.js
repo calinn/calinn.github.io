@@ -171,16 +171,16 @@ var radio = new Radio([
   },
   {
     freq: '10',
-    title: "Radio Ritmo Romántica",
-    src: 'https://14023.live.streamtheworld.com/CRP_RIT_SC?csegid=30006&dist=30006',
-    howl: null
-  },
-  {
-    freq: '11',
     title: "Radio Corazón",
     src: 'https://17833.live.streamtheworld.com/RADIO_CORAZON.mp3?DIST=RPPplayer&TGT=RPPplayer&maxServers=2&ua=RadioTime&ttag=RadioTime',
     howl: null
-  },  
+  }, 
+  {
+    freq: '11',
+    title: "Radio Ritmo Romántica",
+    src: 'https://14023.live.streamtheworld.com/CRP_RIT_SC?csegid=30006&dist=30006',
+    howl: null
+  }, 
   {
     freq: '12',
     title: "Radio Oasis",
