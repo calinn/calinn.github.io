@@ -146,6 +146,12 @@ var radio = new Radio([
     howl: null
   },  
   {
+    freq: '15',
+    title: "Radio La Tonera",
+    src: 'https://stream.zenolive.com/2215qw4nn2zuv.aac',
+    howl: null
+  },
+  {
     freq: '6',
     title: "Radio Huancayo",
     src: 'https://cloudstream2030.conectarhosting.com/9386/;',
@@ -197,12 +203,6 @@ var radio = new Radio([
     freq: '14',
     title: "Radio Frecuencia 100",
     src: 'http://oyotunstream.com:7066/stream',
-    howl: null
-  },
-  {
-    freq: '15',
-    title: "Radio La Tonera",
-    src: 'https://stream.zenolive.com/2215qw4nn2zuv.aac',
     howl: null
   },
   {
